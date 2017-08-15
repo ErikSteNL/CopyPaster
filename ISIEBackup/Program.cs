@@ -13,6 +13,7 @@ namespace ISIEBackup
         {
             string firstPartOfDirectory = Directory.GetCurrentDirectory();
             string secondPartOfDirectory = "Config.txt";
+
             string[] config = null;
 
             string timeStamp = DateTime.UtcNow.ToString();
